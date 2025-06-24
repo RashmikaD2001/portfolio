@@ -2,7 +2,8 @@ import { useState } from 'react';
 import LoadingScreen from './components/LoadingScreen';
 import Navbar from './components/section/Navbar';
 import MobileMenu from './components/section/MobileMenu';
-import './index.css'
+import Home from './components/section/Home';
+import './index.css';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
 
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+          <Home />
           
         </div>
     </>
