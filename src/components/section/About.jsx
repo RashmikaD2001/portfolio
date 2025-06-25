@@ -1,10 +1,10 @@
 import { Skill } from "./Skill"
 
-const About = (props) => {
+const About = () => {
 
   const frontSkills = ['HTML', 'CSS', 'Javascript', 'TypeScript', 'React', 'TailwindCSS']
 
-  const backendSkills = ['Java', 'Python', 'Azure', 'MYSQL', 'MongoDB']
+  const backendSkills = ['Java', 'Python', 'Microsoft Azure', 'MYSQL', 'MongoDB']
 
   const mlSkills = ['Python', 'R', 'Tensorflow', 'Pytorch', 'Scikit-learn', 'HuggingFace', 'NVIDIA Cuda']
 
@@ -53,7 +53,7 @@ const About = (props) => {
                 <strong>BSc Hons in Computer Science (UG)</strong> University of Sri Jayewardenepura<br />(2022 July - Present)
               </li>
               <li>
-                Relevant Coursework: Data Structures and Algorithms, Database, Machine Learning, Operating Systems
+                Relevant Coursework: Data Structures and Algorithms, Object Oriented Programming, Database, Machine Learning, Operating Systems
               </li>
             </ul>
           </div>
