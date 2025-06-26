@@ -6,7 +6,7 @@ const About = () => {
 
   const backendSkills = ['Java', 'Python', 'Microsoft Azure', 'MYSQL', 'MongoDB']
 
-  const mlSkills = ['Python', 'R', 'Tensorflow', 'Pytorch', 'Scikit-learn', 'HuggingFace', 'NVIDIA Cuda']
+  const mlSkills = ['Python', 'R', 'Tensorflow', 'Pytorch', 'Scikit-learn', 'HuggingFace']
 
   return (
     <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -53,7 +53,7 @@ const About = () => {
                 <strong>BSc Hons in Computer Science (UG)</strong> University of Sri Jayewardenepura<br />(2022 July - Present)
               </li>
               <li>
-                Relevant Coursework: Data Structures and Algorithms, Object Oriented Programming, Database, Machine Learning, Operating Systems
+                Relevant Coursework: <br />Data Structures and Algorithms, Object Oriented Programming, Database, Machine Learning, Operating Systems
               </li>
             </ul>
           </div>
@@ -62,7 +62,7 @@ const About = () => {
             <h3 className="text-xl font-bold mb-4">Work Experience🏅</h3>
             <div className="space-y-4 text-gray-300">
               <div>
-                <h4 className="font-semibold">Searching Internship related to Software Engineering or Machine Learning 😁</h4>
+                <h4 className="font-semibold text-center">Searching Internship related to Software Engineering or Machine Learning 😁</h4>
               </div>
             </div>
           </div>

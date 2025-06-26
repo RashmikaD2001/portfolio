@@ -4,7 +4,9 @@ import Navbar from './components/section/Navbar';
 import MobileMenu from './components/section/MobileMenu';
 import Home from './components/section/Home';
 import About from './components/section/About';
+import FeaturedProjects from './components/section/FeaturedProjects'
 import './index.css';
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <Home />
           <About />
+          <FeaturedProjects />
 
         </div>
     </>
