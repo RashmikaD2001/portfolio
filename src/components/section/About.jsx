@@ -1,3 +1,4 @@
+import RevealOnScroll from "./RevealOnScroll"
 import { Skill } from "./Skill"
 
 const About = () => {
@@ -10,28 +11,28 @@ const About = () => {
 
   return (
     <section id="about" className="min-h-screen flex items-center justify-center py-20">
+      <RevealOnScroll>
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-center text-transparent">
+            {" "}
+            About Me
+          </h2>
 
-      <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-center text-transparent">
-          {" "}
-          About Me
-        </h2>
-
-        <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all text-center">
-          <p className="text-gray-300 mb-6">
-            Passionate developer with expertise in building <br />innovative, secured & scalable solutions powered by artificial intelligence.
-          </p>
-        </div>
-
-
-        <div className="flex flex-col items-center gap-8 mt-8">
-          <Skill skills={frontSkills} skillType={'Frontend'} />
-          <Skill skills={backendSkills} skillType={'Backend'} />
-          <Skill skills={mlSkills} skillType={'Machine Learning'} />
-        </div>
+          <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all text-center">
+            <p className="text-gray-300 mb-6">
+              Passionate developer with expertise in building <br />innovative, secured & scalable solutions powered by artificial intelligence.
+            </p>
+          </div>
 
 
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="flex flex-col items-center gap-8 mt-8">
+            <Skill skills={frontSkills} skillType={'Frontend'} />
+            <Skill skills={backendSkills} skillType={'Backend'} />
+            <Skill skills={mlSkills} skillType={'Machine Learning'} />
+          </div>
+
+
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4">Frontend</h3>
             <div className="flex flex-wrap gap-2">
@@ -44,32 +45,33 @@ const About = () => {
           </div>
         </div> */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
 
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4">Education🎓</h3>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>
-                <strong>BSc Hons in Computer Science (UG)</strong> University of Sri Jayewardenepura<br />(2022 July - Present)
-              </li>
-              <li>
-                Relevant Coursework: <br />Data Structures and Algorithms, Object Oriented Programming, Database, Machine Learning, Operating Systems
-              </li>
-            </ul>
-          </div>
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">Education🎓</h3>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong>BSc Hons in Computer Science (UG)</strong> University of Sri Jayewardenepura<br />(2022 July - Present)
+                </li>
+                <li>
+                  Relevant Coursework: <br />Data Structures and Algorithms, Object Oriented Programming, Database, Machine Learning, Operating Systems
+                </li>
+              </ul>
+            </div>
 
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4">Work Experience🏅</h3>
-            <div className="space-y-4 text-gray-300">
-              <div>
-                <h4 className="font-semibold text-center">Searching Internship related to Software Engineering or Machine Learning 😁</h4>
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">Work Experience🏅</h3>
+              <div className="space-y-4 text-gray-300">
+                <div>
+                  <h4 className="font-semibold text-center">Searching Internship related to Software Engineering or Machine Learning 😁</h4>
+                </div>
               </div>
             </div>
+
           </div>
-
         </div>
-      </div>
 
+      </RevealOnScroll>
     </section>
   )
 }

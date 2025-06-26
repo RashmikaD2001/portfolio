@@ -5,6 +5,7 @@ import MobileMenu from './components/section/MobileMenu';
 import Home from './components/section/Home';
 import About from './components/section/About';
 import FeaturedProjects from './components/section/FeaturedProjects'
+import Contact from './components/section/Contact';
 import './index.css';
 
 
@@ -23,7 +24,8 @@ function App() {
           <Home />
           <About />
           <FeaturedProjects />
-
+          <Contact />
+          
         </div>
     </>
   )
