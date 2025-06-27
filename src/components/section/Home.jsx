@@ -18,9 +18,9 @@ const Home = () => {
               My interests span:
             </p>
             <ul className="list-disc list-inside mt-2">
-              <li>Backend development</li>
+              <li>Backend Development</li>
               <li>Cybersecurity</li>
-              <li>Artificial intelligence</li>
+              <li>Artificial Intelligence</li>
             </ul>
             <br />
             <p>
