@@ -7,6 +7,7 @@ import About from './components/section/About';
 import FeaturedProjects from './components/section/FeaturedProjects'
 import Contact from './components/section/Contact';
 import './index.css';
+import Footer from './components/section/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <About />
           <FeaturedProjects />
           <Contact />
+          <Footer />
           
         </div>
     </>
