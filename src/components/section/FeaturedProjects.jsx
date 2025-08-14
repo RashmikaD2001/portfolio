@@ -30,8 +30,8 @@ const FeaturedProjects = () => {
                             path='https://github.com/RashmikaD2001/Python-Bootcamp-Project'
                         />
                         <Project
-                            title="HarmonyBot: A Conflict Mediating Social Robot"
-                            description='a robot that detects the emotional tone of a conversation and uses gentle prompts, tone shifts, and humor or empathy to de-escalate tension and promote calm communication between people'
+                            title="HarmonyBot"
+                            description='HarmonyBot: Conflict Mediating Social Robot using Python, Arduino & Human Robotic Interaction Techniques'
                             skills={['Python','Arduino','C language','Azure Cloud Service', 'HuggingFace', 'Git & Github']}
                             path='https://github.com/RashmikaD2001/CSC-465-2.0-Robotics'
                         />
