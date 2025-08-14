@@ -31,7 +31,7 @@ const FeaturedProjects = () => {
                         />
                         <Project
                             title="HarmonyBot"
-                            description='HarmonyBot: Conflict Mediating Social Robot using Python, Arduino & Human Robotic Interaction Techniques'
+                            description='HarmonyBot: A Conflict Mediating Social Robot using Python, Arduino & Human Robotic Interaction Techniques'
                             skills={['Python','Arduino','C language','Azure Cloud Service', 'HuggingFace', 'Git & Github']}
                             path='https://github.com/RashmikaD2001/CSC-465-2.0-Robotics'
                         />
