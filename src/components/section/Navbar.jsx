@@ -3,7 +3,7 @@ import { useEffect } from "react"
 const Navbar = ({ menuOpen, setMenuOpen }) => {
 
     useEffect(() => {
-        document.body.style.overlow = menuOpen ? 'hidden' : ''
+        document.body.style.overflow = menuOpen ? 'hidden' : ''
     },[menuOpen])
 
     return (
@@ -42,6 +42,12 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
                         <a href="#contact" className="text-gray-300 hove:text-white transition-colors">
                             {" "}
                             Contact
+                            {" "}
+                        </a>
+
+                        <a href="/portfolio/Rashmika-Dushmantha.pdf" download="Rashmika-Dushmantha.pdf" className="text-gray-300 hover:text-white transition-colors">
+                            {" "}
+                            Download Resume
                             {" "}
                         </a>
 
