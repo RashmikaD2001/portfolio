@@ -45,7 +45,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
                             {" "}
                         </a>
 
-                        <a href="/portfolio/Rashmika-Dushmantha.pdf" download="Rashmika-Dushmantha.pdf" className="text-gray-300 hover:text-white transition-colors">
+                        <a href="/portfolio/Rashmika Dushmantha.pdf" download="Rashmika Dushmantha.pdf" className="text-gray-300 hover:text-white transition-colors">
                             {" "}
                             Download Resume
                             {" "}
