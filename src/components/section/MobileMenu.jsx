@@ -23,6 +23,10 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                 About
             </a>
 
+            <a href="#publications" className={cssStyle} onClick={() => setMenuOpen(false)}>
+                Publications
+            </a>
+
             <a href="#projects" className={cssStyle} onClick={() => setMenuOpen(false)}>
                 Projects
             </a>
