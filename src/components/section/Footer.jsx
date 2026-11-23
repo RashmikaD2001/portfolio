@@ -27,7 +27,7 @@ const Footer = () => {
 
                 <div>
                     <p>
-                        &copy; 2025 — Designed by <span className="text-white font-semibold">Rashmika Dushmantha</span>
+                        &copy; 2026 — Designed by <span className="text-white font-semibold">Rashmika Dushmantha</span>
                     </p>
                 </div>
             </footer>

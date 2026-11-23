@@ -21,6 +21,7 @@ const Home = () => {
               <li>Backend Development</li>
               <li>Cybersecurity</li>
               <li>Artificial Intelligence</li>
+              <li>Robotics</li>
             </ul>
             <br />
             <p>
