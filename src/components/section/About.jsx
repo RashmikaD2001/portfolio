@@ -20,7 +20,8 @@ const About = () => {
 
           <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all text-center">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building <br />innovative, secured & scalable solutions powered by artificial intelligence.
+              I am a Software Engineer and Researcher.<br />Passionate about solving complex, multi-layered engineering challenges. <br />
+              Enjoy exploring new technologies, approaching problems from different perspectives, and developing innovative solutions that bridge research and applications.
             </p>
           </div>
 
@@ -51,7 +52,7 @@ const About = () => {
               <h3 className="text-xl font-bold mb-4">Education🎓</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>BSc Hons in Computer Science (UG)</strong> University of Sri Jayewardenepura<br />(2022 July - Present)
+                  <strong>BSc Hons in Computer Science</strong> University of Sri Jayewardenepura<br />(2022 July - 2026 July)
                 </li>
                 <li>
                   Relevant Coursework: <br />Data Structures and Algorithms, Object Oriented Programming, Database, Machine Learning, Operating Systems
@@ -61,11 +62,16 @@ const About = () => {
 
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">Work Experience🏅</h3>
-              <div className="space-y-4 text-gray-300">
+              {/* <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold text-center">Searching Internship related to Software Engineering or Machine Learning 😁</h4>
                 </div>
-              </div>
+              </div> */}
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong>Software Engineer (Intern)</strong> <br />Cambio Software (2026 Feb - Present)
+                </li>
+              </ul>
             </div>
 
           </div>

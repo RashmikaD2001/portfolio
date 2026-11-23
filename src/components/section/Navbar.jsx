@@ -33,6 +33,12 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
                             {" "}
                         </a>
 
+                        <a href="#publications" className="text-gray-300 hove:text-white transition-colors">
+                            {" "}
+                            Publications
+                            {" "}
+                        </a>
+
                         <a href="#projects" className="text-gray-300 hove:text-white transition-colors">
                             {" "}
                             Projects

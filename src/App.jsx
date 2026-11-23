@@ -8,6 +8,7 @@ import FeaturedProjects from './components/section/FeaturedProjects'
 import Contact from './components/section/Contact';
 import './index.css';
 import Footer from './components/section/Footer';
+import FeaturedPublications from './components/section/FeaturedPublication';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <Home />
           <About />
+          <FeaturedPublications />
           <FeaturedProjects />
           <Contact />
           <Footer />
